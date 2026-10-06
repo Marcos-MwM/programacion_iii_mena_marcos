@@ -1,0 +1,95 @@
+# Programación III
+
+**Autor:** Marcos Mena
+
+## Descripción
+
+Este repositorio contiene el material, ejercicios, prácticas y proyectos desarrollados durante la materia **Programación III**.
+
+A lo largo de la asignatura se estudiarán diferentes tecnologías fundamentales para el desarrollo web, comenzando con los conceptos básicos de **HTML, CSS y JavaScript**, y posteriormente avanzando hacia herramientas y frameworks modernos.
+
+## Tecnologías y conceptos
+
+### HTML
+
+**HTML (HyperText Markup Language)** es el lenguaje utilizado para estructurar el contenido de una página web.
+
+Miniconceptos:
+
+* Estructura básica de un documento HTML.
+* Etiquetas y elementos.
+* Encabezados y párrafos.
+* Enlaces.
+* Imágenes.
+* Listas.
+* Tablas.
+* Formularios.
+* Elementos semánticos.
+* Atributos HTML.
+
+### CSS
+
+**CSS (Cascading Style Sheets)** permite definir la apariencia y presentación de los elementos HTML.
+
+Miniconceptos:
+
+* Selectores.
+* Propiedades y valores.
+* Colores y fondos.
+* Tipografías.
+* Márgenes y padding.
+* Bordes.
+* Modelo de cajas (Box Model).
+* Flexbox.
+* Grid.
+* Diseño responsive.
+* Pseudoclases y pseudoelementos.
+
+### JavaScript
+
+**JavaScript** es un lenguaje de programación utilizado para agregar lógica e interactividad a las páginas y aplicaciones web.
+
+Miniconceptos:
+
+* Variables y constantes.
+* Tipos de datos.
+* Operadores.
+* Condicionales.
+* Bucles.
+* Funciones.
+* Arrays.
+* Objetos.
+* Manipulación del DOM.
+* Eventos.
+* Funciones flecha.
+* Promesas.
+* Programación asíncrona.
+* Consumo de APIs.
+
+## Objetivo
+
+El objetivo de este repositorio es recopilar y organizar el aprendizaje realizado durante la materia **Programación III**, aplicando los conocimientos adquiridos mediante ejercicios prácticos y proyectos de desarrollo web.
+
+## Estructura del repositorio
+
+```text
+programacion-iii/
+├── html/
+├── css/
+├── javascript/
+├── ejercicios/
+├── proyectos/
+└── README.md
+```
+
+## Tecnologías
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+
+---
+
+**Programación III — Desarrollo Web**
