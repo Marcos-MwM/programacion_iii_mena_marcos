@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre su vehiculo</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+            <td>
+                <label for="registro_nombre">Nombre y Apellidos:</label>
+                <input type="text" name="registro_nombre" id="nombre">
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label for="registro_email">Correo electrónico:</label>
+                <input type="email" name="registro_email" id="correo">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="registro_num_placa">Ingrese el número de placa:</label>
+                    <input type="number" name="registro_num_placa" id="placa">
+                </td>
+                <td>
+                    <label for="registro_vehiculo_anio">Ingrese el año de modelo de su vehículo</label>
+                    <input type="number" min="1900" max="2100" value="2000" step="2" id="vehiculo_anio">
+                </td>
+            </tr>
+            <tr>
+                <p>¿Por quién conocio esta plataforma</p>
+                <td>
+                    <label for="opc_redes_sociales">Redes Sociales</label>
+                    <input type="radio" name="opc_redes_sociales" value="redes-sociales">
+                    <label for="opc_panfletos">Planfetos y Carteles</label>
+                    <input type="radio" name="opc_panfletos" value="panfletos_carteles">
+                    <label for="opc_otros">Otro:</label>
+                    <input type="text" name="opc_otros" value="otros">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="registro_pais">Ingrese su Pais correspondiente</label>
+                    <select id="paises" name="registro_pais" required multiple size="2">
+                        <option value="argentina">Argentina</option>
+                            Argentina
+                        </option>
+                        <option value="brasil">Brasil</option>
+                            Brasil
+                        </option>
+                        <option value="chile">Chile</option>
+                            Chile
+                        </option>
+                        <option value="colombia">Colombia</option>
+                            Colombia
+                        </option>
+                        <option value="ecuador">Ecuador</option>
+                            Ecuador
+                        </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/registro">
+        <table>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Agregar apellido">
+                </td>
+                <td>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" placeholder="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" name="correo" id="correo" placeholder="Correo electrónico">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nivel_de_tension">Nivel de tensión:</label>
+                    <input type="input" min="1" max="100" step="5" value="50" id="nivel_de_tension"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="grupo_a" value="grupo_a">
+                    <label for="grupo_a">grupo a</label>
+                    <input type="radio" id="grupo_b" value="grupo_b">
+                    <label for="grupo_b">grupo b</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>habilidades</p>
+                    <input type="checkbox" id="sable" name="habilidades" value="sable">
+                    <label for="sable">Sable</label>
+                    <input type="checkbox" id="katana" name="habilidades" value="katana">
+                    <label for="katana">Katana</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="planeta">Planeta de origen</label>
+                    <br>
+                    <select id="planeta" name="planeta" required multiple size="4">
+                        <option value="">
+                            Seleccione un Planeta
+                        </option>
+                        <option value="gris">
+                            gris
+                        </option>
+                        <option value="red">
+                            red
+                        </option>
+                        <option value="blue">
+                            blue
+                        </option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Registrar</button>
+    </form>
+    <legend>
+        <fieldset>
+        <label for="numero_3">Hazaña destacada</label>
+        <input type="text" name="numero_3">
+        </fieldset>
+        <textarea
+        id="descripcion"
+        name="descripcion"
+        rows="5"
+        cols="45"
+        maxlength="233"
+        placeholder="cosa...."
+        ></textarea>
+
+    </legend>
+    
+</body>
+</html>
