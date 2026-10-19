@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar una cita | Fix-Up Taller Mecánico</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        main p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agendar una cita</h1>
+        <p>Planee con anticipación la visita de su vehículo al taller.</p>
+    </header>
+    <nav>
+        <h2>Navegación por nuestra página</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="proceso.html">Proceso de atención</a></li>
+            <li><a href="tarifas.html">Tarifas</a></li>
+            <li><a href="cita.html">Agendar una cita</a></li>
+            <li><a href="multimedia.html">Sucursales y sonidos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Solicitud de cita</h2>
+        <p>Los campos con <strong>*</strong> son obligatorios.</p>
+
+        <form action="/registrar" id="form_cita">
+
+            <fieldset>
+                <legend>Datos del Usuario</legend>
+
+                <label for="nombre">Nombres y Apellidos *</label>
+                <input type="text" id="nombre" name="nombre" maxlength="60" required>
+                <label for="correo">Correo electrónico *</label>
+                <input type="email" id="correo" name="correo" required>
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="0999999999" maxlength="10" required>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Datos del vehículo</legend>
+
+                <label for="marca">Marca *</label>
+                <select id="marca" name="marca" required>
+                    <option value="">Selecciona una marca</option>
+                    <optgroup label="Marcas">
+                        <option value="chevrolet">Chevrolet</option>
+                        <option value="kia">Kia</option>
+                        <option value="hyundai">Hyundai</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="nissan">Nissan</option>
+                        <option value="mazda">Mazda</option>
+                    </optgroup>
+                </select>
+                        <label for="marca">Otra</label>
+                        <input type="text" placeholder="Otra.." name="marca">
+                <br>
+            <br>
+
+                <label for="modelo">Modelo *</label>
+                <input type="text" id="modelo" name="modelo" placeholder="Kashka" required>
+
+
+                <label for="anio">Año *</label>
+                <input type="number" id="anio" name="anio" min="1990" max="2050" value="2020" required>
+
+                <label for="placa">Placa *</label>
+                <input type="text" id="placa" name="placa" placeholder="ABC-1234" maxlength="9" required>
+                <label for="kilometraje">Kilometraje aproximado: <output id="salida_km">50000</output> km</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Detalles de la cita</legend>
+
+                <label for="sucursal">Sucursal *</label>
+                <input list="lista_sucursales" id="sucursal" name="sucursal" placeholder="Escribe o elige una" required>
+                <datalist id="lista_sucursales">
+                    <option value="FixUp Norte">
+                    <option value="FixUp Centro">
+                    <option value="FixUp Sur">
+                    <option value="FixUp Valle">
+                </datalist>
+                <br><br>
+
+                <label for="fecha">Fecha *</label>
+                    <input type="date" id="fecha" name="fecha" min="2026-10-19" required>
+                    <br>
+
+                <label for="hora">Hora *</label>
+                    <input type="time" id="hora" name="hora" min="08:00" max="17:00" required>
+                    <br>
+
+                <p>Tipo de servicio *</p>
+                    <input type="radio" id="mantenimiento" name="servicio" value="mantenimiento" required>
+                        <label for="mantenimiento">Mantenimiento</label>
+                    <input type="radio" id="reparacion" name="servicio" value="reparacion">
+                        <label for="reparacion">Reparación</label>
+                    <input type="radio" id="diagnostico" name="servicio" value="diagnostico">
+                        <label for="diagnostico">Diagnóstico</label>
+                    <br>
+
+                <p>Extras</p>
+                <input type="checkbox" id="lavado" name="extras" value="lavado">
+                    <label for="lavado">Lavado</label>
+                    <br>
+                <input type="checkbox" id="llantas" name="extras" value="llantas">
+                    <label for="llantas">Revisión de llantas</label>
+                    <br>
+                <input type="checkbox" id="luces" name="extras" value="luces">
+                    <label for="luces">Revisión de luces</label>
+                    <br>
+                <br>
+
+                <label for="problema">Describe el problema *</label>
+                <br>
+                <textarea id="problema" name="problema" rows="5" cols="45" maxlength="500" placeholder="Ej: hace un ruido al frenar" required></textarea>
+            </fieldset>
+
+            <br>
+
+            <input type="checkbox" id="acepto" name="acepto" required>
+            <label for="acepto">Acepto que FixUp me contacte para confirmar la cita *</label>
+            <br><br>
+
+            <button type="submit">Confirmar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </main>
+</body>
+</html>
