@@ -1,0 +1,27 @@
+#titulo {
+    color: rgb(59, 59, 252);
+}
+
+nav {
+     background-color: #f0f0f0;
+     padding: 20px;
+     margin: 10px;
+     border: 2px solid #ccc;
+     margin: 30px;
+}
+
+main #serviciosInformation{
+    color: brown;
+    font: 12px;
+
+}
+table {
+    border: 3px #89c5d2 solid;
+    background-color: azure;
+}
+
+table thead {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}

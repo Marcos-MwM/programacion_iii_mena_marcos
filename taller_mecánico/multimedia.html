@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucursales y sonidos | Fix-Up Taller Mecánico</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Sucursales y sonidos</h1>
+        <p>Conozca nuestros espacios y descubra algunos de los sonidos que pueden orientar la revisión de su vehículo.</p>
+    </header>
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="proceso.html">Proceso de atención</a></li>
+            <li><a href="tarifas.html">Tarifas</a></li>
+            <li><a href="cita.html">Agendar una cita</a></li>
+            <li><a href="multimedia.html">Sucursales y sonidos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="inicio-multimedia">Una experiencia visual y auditiva</h2>
+        <p>Explore imágenes de nuestras sucursales y escuche ejemplos de sonidos automotrices habituales. Estas referencias <strong>no sustituyen una inspección ni un diagnóstico profesional</strong>.</p>
+
+        <ul>
+            <li><a href="#sucursales">Nuestras sucursales</a></li>
+            <li><a href="#sonidos">Sonidos del motor</a></li>
+            <li><a href="#descargas">Documentos descargables</a></li>
+        </ul>
+
+        <section id="sucursales">
+            <h2>Nuestras sucursales</h2>
+
+            <article>
+                <h3>FixUp Norte</h3>
+                <figure>
+                    <img src="imagenes/sucursal_norte.jpg" alt="Fachada de la sucursal FixUp Norte" width="400" height="260">
+                    <figcaption>Sucursal FixUp Norte</figcaption>
+                </figure>
+                <address>
+                    Av. de los Shyris N35-120 y Río Coca<br>
+                </address>
+            </article>
+
+            <article>
+                <h3>FixUp Sur</h3>
+                <a href="cita.html">
+                    <img src="imagenes/sucursal-sur.jpg" alt="Taller FixUp Sur, clic para agendar" title="Agenda tu cita en FixUp Sur" width="300" loading="lazy">
+                </a>
+                <p>Av. Pedro Vicente Maldonado S12-340</p>
+                <p>Horario: lunes a sábado de <time datetime="07:30">07:30</time> a <time datetime="18:00">18:00</time>.</p>
+            </article>
+        </section>
+
+        <section id="sonidos">
+            <h2>Sonidos del motor</h2>
+            <p>Escuche cada ejemplo y compárelo con el ruido de su vehículo. Si se parece, menciónelo al agendar su cita.</p>
+
+            <article>
+                <h3>Motor en buen estado</h3>
+                <audio controls>
+                    <source src="audios/motor_normal.ogg">
+                </audio>
+            </article>
+
+            <article>
+                <h3>Frenos con desgaste</h3>
+                <audio src="audios/frenos_desgaste.mp3" controls loop preload="none"></audio>
+            </article>
+
+            <p><a href="#inicio-multimedia">Volver arriba</a></p>
+        </section>
+    </main>
+</body>
+</html>
