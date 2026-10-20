@@ -1,0 +1,52 @@
+body {
+    margin: 2px;
+    background-color: whitesmoke;
+    color: rgb(244, 13, 13);
+    font-family: 'Aria', sans-serif;
+}
+
+header {
+    background-color: rgb(80, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 39);
+}
+h2{
+    color: black;
+}
+
+.galeria_tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tarjeta_personaje {
+    box-sizing: border-box;
+    background-color: rgb(167, 9, 9);
+    color: aliceblue;
+    border-radius: 5%;
+    height: 250px;
+    width: 100%;
+    max-width: 350px;
+    min-width: 100px;
+    padding: 20px;
+}
+.tarjeta_personaje h3{
+    margin-top:  0;
+    color: rgb(1, 2, 69);
+    padding: 5px;
+}
+.tarjeta_personaje p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
