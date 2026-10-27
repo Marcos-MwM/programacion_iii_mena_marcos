@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-jedi{
+    padding: 15px 25px;
+    background-color: aquamarine;
+    color: black;
+}
+.btn-jedi:focus-visible{
+    background-color: blue;
+    overflow: red 3px solid;
+
+}
+.tarjeta{
+    width: 250px;
+    padding: 25px;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    border-radius: 12;
+    transition-property: transform;
+    transition-duration: 12s ease;
+}
+
+.tarjeta:hover{
+    background-color: yellow;
+    transform: scale(1.5);
+}
+
+.nave{
+    width: 200px;
+    background-color: brown;
+    transition: transform 0.5s ease;
+}
+
+.nave:hover{
+    transform: translate(50px,-10px);
+    /*
+    easer: comienza lento y acelera y vuelve lento al final*
+    linear: velocidad constante,
+    ease-in: empieza lento termina rapido
+    ease-out:simetricamente marcado lo mismo que easer
+    ease in out: empieza rapido termina lento
+    */
+}
+.radar{
+    padding: 30px;
+    display: grid;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: solid 3px rgb(159, 227, 159);
+    border-radius: 50%;
+}
+
+.indicador{
+    color: green;
+    font-size: 70px;
+    transition: 1s transform ease;
+}
+
+.indicador:hover{
+    transform: rotate(-90deg);
+}
+
+.nave2{
+    width: 100px;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.nave2:hover{
+    transform: translateX(50px),rotate(15deg),scale(1.5);
+
+}
+
+.espacio{
+    width: 100;
+    max-width: 600px;
+    padding: 20px;
+    background-color: black;
+    overflow: hidden;
+}
+.xwing{
+    width: 100px;
+    animation: vuelo 3s ease-in-out infinite alternate;
+}
+@keyframes vuelo{
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}
+.alerta{
+    width: 200px;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    animation-name: advertencia;
+    animation-duration: 3seg;
+    animation-iteration-count: 12;
+}
+
+@keyframes advertencia{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
