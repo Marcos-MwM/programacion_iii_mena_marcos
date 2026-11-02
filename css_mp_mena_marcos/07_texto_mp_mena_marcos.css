@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.texto-taller {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkblue;
+}
+
+.texto-aviso {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: darkred;
+}
+
+.text-40px{
+    font-size: 40px;
+}
+.text-20px{
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.text-10px{
+    font-family: 'Courier New', monospace;
+    font-size: 10px;
+}
+
+.aprendiz{
+    font-weight: 300;
+}
+.estilo_letra_normal {
+    font-weight: 400;
+    font-style: normal;
+}
+.estilo_letra_negrillas{
+    font-weight: 700;
+    font-style: italic;
+}
+.estilo_letra_negrillas{
+    font-style: italic;
+}
+.izquierda{
+    text-align: left;
+}
+.derecha{
+    text-align: right;
+}
+.centro{
+    text-align: center;
+}
+.cancelada{
+    color: red;
+    text-decoration: line-through;
+    text-decoration-line: gold ;
+    text-decoration-thickness: 3px;
+}
+.aceptado{
+    color: green;
+    text-decoration: underline;
+}
+
+.titulo_mayuscula{
+    text-transform: uppercase;
+}
+.titulo_minuscula{
+    text-transform: lowercase;
+}
+.titulo_capitalizado{
+    text-transform: capitalize;
+}
+.espacio_simple{
+    line-height: 2;
+}
+.espacio_letras1{
+    letter-spacing: 1px;
+}
+.espacio_triple{
+    line-height: 3em;
+}
+.espacio_letras2{
+    letter-spacing: 2px;
+}

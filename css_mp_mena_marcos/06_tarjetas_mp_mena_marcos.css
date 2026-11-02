@@ -1,0 +1,71 @@
+body {
+    margin: 2px;
+    background-color: whitesmoke;
+    color: rgb(213, 241, 255);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(0, 11, 80);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 18px 20px;
+    text-align: center;
+}
+h1 {
+    color: rgb(170, 242, 255);
+    margin: 8px 0;
+}
+h2{
+    color: rgb(162, 212, 215);
+    margin-bottom: 0;
+}
+
+.seccion_tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    padding: 28px 20px;
+}
+
+.servicio_tarjetas {
+    box-sizing: border-box;
+    background-color: rgb(159, 146, 146);
+    color: aliceblue;
+    border: 1px solid rgba(0, 11, 80, 0.25);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 11, 80, 0.15);
+    flex: 1 1 240px;
+    max-width: 350px;
+    min-height: 210px;
+    padding: 24px;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.servicio_tarjetas:hover {
+    box-shadow: 0 8px 16px rgba(0, 11, 80, 0.22);
+}
+
+.servicio_tarjetas h3 {
+    margin: 0 0 14px;
+    color: rgb(1, 2, 69);
+    font-size: 1.2rem;
+}
+
+.servicio_tarjetas p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+.servicio_tarjetas p:last-child {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
