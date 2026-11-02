@@ -1,0 +1,29 @@
+
+div{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 100px;
+}
+.caja-roja{
+    top: 100px;
+    background-color: red;
+    z-index: 3;
+}
+.caja-verde{
+    top:60px;
+    left: 2%;
+    z-index: 2;
+    background-color: green;
+}
+.caja-azul{
+    top: 20px;
+    left: 5%;
+    z-index: 1;
+    color: bisque;
+    background-color: blue;
+}

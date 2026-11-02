@@ -1,0 +1,108 @@
+.secreta {
+    visibility: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: #f2f4f3;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: #000000;
+}
+
+nav {
+    padding: 12px;
+    background-color: #d7e2d9;
+}
+
+nav a {
+    margin: 20px;
+    color: #263b32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    padding: 8px 24px 24px;
+}
+
+.ejemplos-posicion {
+    padding: 12px;
+    border: #000000 1px solid;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+}
+
+.caja {
+    position: static;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.caja2 {
+    position: relative;
+    top: 8px;
+    left: 16px;
+    width: fit-content;
+    color: #21180f;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+
+.tarjetas-oferta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta-relativa {
+    position: relative;
+    box-sizing: border-box;
+    flex: 1fr 1fr;
+    max-width: 320px;
+    min-height: 190px;
+    padding: 13px 14px;
+    background-color: #fffdf6;
+    color: #263238;
+}
+
+.tarjeta-relativa h3 {
+    color: #344f40;
+    margin: 12px 0;
+
+}
+
+.etiqueta {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 6px 9px;
+    background-color: #b94a3b;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.precio {
+    color: #8a3d2c;
+    font-weight: bold;
+}
+
+footer {
+    padding: 16px 24px 70px;
+    background-color: #d7e2d9;
+}
+
+.boton-fijo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}

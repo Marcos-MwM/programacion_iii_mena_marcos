@@ -1,0 +1,140 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color: #244b5a;
+}
+
+.personaje {
+    padding: 20px;
+    background-color: #f3ead2;
+    color: #23343b;
+    border: 2px solid #e08b3e;
+}
+
+.consejo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    padding: 16px;
+    background-color: #b7d8c0;
+    color: #243d35;
+}
+
+.consejo .personaje {
+    padding: 14px;
+    background-color: #fff7e8;
+    border-color: #4f8d72;
+}
+
+.secundarios {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 12px;
+    padding: 18px;
+    color: #fff4e8;
+    background-color: #694b67;
+}
+
+.secundario {
+    text-align: center;
+    background-color: #f1a66a;
+    color: #38243a;
+    padding: 22px;
+}
+
+.spin_off {
+    display: grid;
+    grid-template-rows: 80px 130px 90px;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 14px;
+    background-color: #d6e5ec;
+}
+
+.spin_off div {
+    padding: 16px;
+    background-color: #f7c873;
+    color: #27394b;
+    text-align: center;
+    border: 3px solid #386b86;
+}
+
+.flota {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px 10px;
+    padding: 24px;
+    color: #233a29;
+    background-color: #c9d7a4;
+    text-align: center;
+}
+
+.flota div {
+    padding: 18px;
+    background-color: #f3f0d7;
+    border: 2px solid #758b49;
+}
+
+.consejo2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 18px;
+    color: #f4f1ff;
+    background-color: #3a416e;
+}
+
+.consejo2 .personaje {
+    padding: 16px;
+    background-color: #e4d7f2;
+    border-color: #c26a79;
+}
+
+.consejo2 .sider {
+    padding: 14px;
+    background-color: #8bc6c1;
+    color: #203b4b;
+    border: 2px solid #e6aa62;
+}
+
+.spin_offs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    padding: 20px;
+    color: #f8f3eb;
+    background-color: #385b50;
+}
+
+.spin_offs div {
+    padding: 18px;
+    background-color: #e9a66c;
+    color: #342d39;
+    border: 2px solid #f1d78d;
+}
+
+.spin_offs h1 {
+    grid-column: 1 / -1;
+}
+
+.consejo3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 26px;
+    background-color: #e7c4a8;
+    border: 2px solid #6c4e3b;
+    text-align: center;
+}
+
+.consejo3 .personaje {
+    padding: 24px 16px;
+    background-color: #f5e9d8;
+    border-color: #9c6246;
+}
+
+.consejo3 .personaje:first-child {
+    grid-column: span 2;
+}
