@@ -1,0 +1,70 @@
+.texto-jedi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.text-40px{
+    font-size: 40px;
+}
+.text-20px{
+    font-family: 20px;
+}
+.text-10px{
+    font-family: 10px;
+}
+
+.aprendiz{
+    font-weight: 300;
+}
+.caballero {
+    font-weight: 400
+}
+.maestro{
+    font-weight: 100;
+}
+.estilo_letra_normal{
+     font-style: normal;
+}
+.estilo_letra_negrillas{
+    font-style: italic;
+}
+.izquierda{
+    text-align: left;
+}
+.derecha{
+    text-align: right;
+}
+.centro{
+    text-align: center;
+}
+.cancelada{
+    color: red;
+    text-decoration: line-through;
+    text-decoration-line: gold ;
+    text-decoration-thickness: 3px;
+}
+.aceptado{
+    color: green;
+    text-decoration: underline;
+}
+
+.titulo_mayuscula{
+    text-transform: uppercase;
+}
+.titulo_minuscula{
+    text-transform: lowercase;
+}
+.titulo_capitalizado{
+    text-transform: capitalize;
+}
+.espacio_simple{
+    line-height: 2;
+}
+.espacio_letras1{
+    letter-spacing: 1px;
+}
+.espacio_triple{
+    line-height: 3em;
+}
+.espacio_letras2{
+    letter-spacing: 2;
+}

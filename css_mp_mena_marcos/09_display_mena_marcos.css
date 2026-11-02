@@ -1,0 +1,32 @@
+.pieza {
+    color: #172033;
+    margin: 4px;
+    padding: 10px;
+}
+
+.display-bloque {
+    display: block;
+    background-color: lightblue;
+}
+
+.display-linea {
+    display: inline;
+    background-color: khaki;
+}
+
+.display-linea-bloque {
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    background-color: lightgreen;
+}
+.display-flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.display-flex span{
+    color: aqua;
+    background-color: rgb(51, 107, 88);
+    flex: 1;
+}

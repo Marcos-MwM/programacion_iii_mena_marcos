@@ -1,0 +1,106 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color: black;
+}
+.personaje{
+    padding: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid gold;
+}
+.consejo{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: repeat(3, 1fr);
+    color: red;
+    padding: 20px;
+    color: white;
+}
+
+.secundarios{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 15px;
+    padding: 12px;
+    color: aliceblue;
+    background-color: black;
+}
+.secundario{
+    text-align: center;
+    background-color: green;
+    color: yellow;
+    padding: 30px;
+}
+.spin_off{
+    display: grid;
+    grid-template-rows: 80px 130px 90px;
+    grid-template-columns: 1fr;
+}
+.spin_off div{
+    padding: 12px;
+    background-color: antiquewhite;
+    border: 12px;
+    text-align: center;
+    border: 22px red solid;
+}
+.flota{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 2px;
+    background-color: bisque;
+}
+.flota{
+    color: blueviolet;
+    background-color: brown;
+    gap: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.consejo2{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: repeat(4, 1fr);
+    color: red;
+    padding: 20px;
+    color: white;
+}
+.consejo2 .sider{
+    padding: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid gold;
+}
+
+.spin_offs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    padding: 1px;
+    color: aliceblue;
+    background-color: black;
+}
+.spin_offs div{
+    padding: 20px;
+    background-color: red;
+    border: 2px solid rgb(64, 134, 255)
+}
+.spin_offs h1{
+    grid-column: 1 / -1;
+}
+.consejo3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 30px;
+    background-color: rgb(233, 214, 107) !important;
+    border: 2px solid rgb(64, 134, 255);
+    text-align: center;
+}
+.consejo3 .personaje:first-child{
+    grid-column: span 2;
+}
