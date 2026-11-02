@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0 4%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.portada {
+    width: 90%;
+    padding: 3vw 2rem;
+    color: #254c3d;
+}
+
+.portada h1 {
+    font-size: 5vw;
+    color: #a45d27;
+}
+
+.bienvenido {
+    min-height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.historia {
+    width: 75%;
+    margin: 2rem auto;
+    padding: 1.5rem 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .portada {
+        width: auto;
+        padding: 8vw 5%;
+    }
+
+    .portada h1 {
+        font-size: 8vw;
+    }
+
+    .historia {
+        width: 90%;
+    }
+}
