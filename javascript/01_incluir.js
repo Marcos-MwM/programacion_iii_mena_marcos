@@ -1,2 +1,2 @@
-console.log("saludo desde un archivo externo")
-alert('Hola morty, piensa que esto no es real')
+console.log("Saludo desde un archivo externo");
+alert('Hola, Morty. Piensa que esto no es real.');
