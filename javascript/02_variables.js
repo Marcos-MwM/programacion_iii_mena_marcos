@@ -1,28 +1,27 @@
-console.log("Hello desde consola")
-console.log("Desclaracion variables")
+console.log("Hola desde la consola");
+console.log("Declaracion de variables");
 /*Tipos de datos */
-let acompanante = 'morts';
-let energia=100;
-let dimension='C-137';
-let tieneCombustible=true;
+let acompanante = 'Morty';
+let energia = 100;
+let dimension = 'C-137';
+let tieneCombustible = true;
 console.log(acompanante);
 console.log(energia);
 console.log(dimension);
 console.log(tieneCombustible);
-// when
-acompanante = 'rick';
-energia=100;
-dimension='C-140';
-tieneCombustible=false;
+acompanante = 'Rick';
+energia = 100;
+dimension = 'C-140';
+tieneCombustible = false;
 console.log(acompanante);
 console.log(energia);
 console.log(dimension);
 console.log(tieneCombustible);
 
-var personaje='jerry';
+var personaje = 'Jerry';
 console.log("personaje",personaje);
-personaje="Rick";
+personaje = "Rick";
 console.log('Nuevo acompañante',personaje);
 
-const protagonista='Jerry';
+const protagonista = 'Jerry';
 console.log(protagonista);
