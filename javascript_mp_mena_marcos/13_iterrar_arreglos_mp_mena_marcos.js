@@ -62,7 +62,6 @@ let resultado = cristalesEnergia.reduce((acumulador, elemento) => {return acumul
 console.log("Cristales válidos: " + validos);
 console.log("Suma total: " + resultado);
 
-// Agregado con temática de taller mecánico
 let repuestos = [
     {id: 1, nombre: "Filtro de aceite", precio: 150},
     {id: 2, nombre: "Batería", precio: 2200},
