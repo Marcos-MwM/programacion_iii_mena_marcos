@@ -59,3 +59,23 @@ do{
     console.log("Semana " + semanas + ": Ahorros actuales: $" + ahorros);
 } while (ahorros < meta);
 console.log("¡Felicidades! Has alcanzado tu meta de ahorros para comprar la pistola de portales en " + semanas + " semanas.");
+
+let cristales = [35, 60, 45, 80, 70, 90, 55];
+let objetivo = 150;
+let energiaTotal = 0;
+let indice = 0;
+while (indice < cristales.length){
+    let cristalEnergia = cristales[indice];
+    energiaTotal += cristalEnergia;
+    ++indice;
+    if (cristalEnergia < 20){
+        console.log(cristalEnergia + " cristales recolectados. Energía total: " + energiaTotal);
+        continue;
+    }
+    energiaTotal += cristalEnergia;
+    console.log(cristalEnergia + " cristales recolectados. Energía total: " + energiaTotal);
+    if (energiaTotal >= objetivo){
+        console.log("¡Objetivo de energía alcanzado! Energía total: " + energiaTotal);
+        break;
+    }
+}
