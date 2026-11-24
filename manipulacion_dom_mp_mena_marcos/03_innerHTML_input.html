@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido dinámico - Taller Fix-Up</title>
+    <script src="03_innerHTML_input.js" defer></script>
+</head>
+<body>
+    <h1>Taller mecánico Fix-Up</h1>
+    <p id="mensaje">Esperando información del taller...</p>
+    <div id="saludo"></div>
+
+    <h2>Crear orden de servicio</h2>
+    <label for="inputSaludo">Nombre del cliente:</label>
+    <input id="inputSaludo" type="text" placeholder="Escribe tu nombre">
+
+    <label for="inputTitulo">Servicio solicitado:</label>
+    <input id="inputTitulo" type="text" placeholder="Ej. Cambio de aceite">
+
+    <label for="inputTexto">Descripción del problema:</label>
+    <input id="inputTexto" type="text" placeholder="Describe el problema del vehículo">
+
+    <button id="btnInsertar" type="button">Registrar orden</button>
+    <section id="contenidoInsertado"></section>
+</body>
+</html>
