@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    padding: 40px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+}
+
+button{
+    border: none;
+    background-color: yellow;
+    color: white;
+    cursor: pointer;
+    height: 2em;
+    width: auto;
+}
