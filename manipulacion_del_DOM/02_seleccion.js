@@ -17,8 +17,8 @@ h2Objeto.textContent = "Preparación nave";
 const universo = document.querySelector("#universo");
 universo.textContent = "Preparado";
 
-const estado = document.querySelector(".morty,#estado");
-estado.textContent("asustado");
+const estado = document.querySelector("#estado");
+estado.textContent = "asustado";
 
 const planeta = document.querySelectorAll(".planetas");
 console.log(planeta);

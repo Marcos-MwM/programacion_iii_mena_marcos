@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="01_hello_dom.js" defer></script>
+    <link href="01_hello_dom.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Taller Fix-Up</h1>
+    <form>
+        <fieldset>
+        <legend>Datos Para el registro</legend>
+        <label for="nombres">Nombres Completos:</label>
+        <input type="text" id="nombres">
+
+        <label for="apellidos">Apellidos Completos:</label>
+        <input type="text" id="apellidos">
+        
+        <label for="edad">Edad</label>
+        <input type="number" min="0" max="99" id="edad">
+
+        <p id="aviso"></p>
+
+
+        <button type="button" id="registrar">Botón para registrarse a Fix-Up</button>
+        </fieldset>
+
+        <section id="seccion_carros" hidden>
+            <label for="modelo_carro">Modelo de su vehículo:</label>
+            <input type="text" id="modelo_carro">
+            <button type="button" id="registrar_modelo">Agregar carro</button>
+
+            <h2>Autos agregados</h2>
+            <ol id="lista_modelos"></ol>
+        </section>
+    </form>
+
+    
+    
+</body>
+</html>
