@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de Dom</title>
+    <script src="06_crud_arreglo.js" defer></script>
+</head>
+<body>
+
+    <h1> Registro interdimencional</h1>
+    <h2 id="tituloFormulario"></h2>
+    <form id="formulario">
+        <input type="text" id="nombre">
+        <select id="dimension">
+            <option value="C-137">C-137</option>
+            <option value="C-500">C-500</option>
+            <option value="C-200">C-200</option>
+        </select>
+        <select id="estado">
+            <option value="vivo">Vivo</option>
+            <option value="muerto">Muerto</option>
+        </select>
+        <button id="guardar" type="submit">Agregar</button>
+        <button type="button" id="cancelar" hidden>Cancelar</button>
+    </form>
+    <h2>Personajes registrados</h2>
+    <h2>Cantidad: <span id="cantidad">0</span></h2>
+    <div id="contenedor">
+        <div class="tarjeta">
+            <h3>Rick</h3>
+            <p>Dimension: C-137</p>
+            <p>Estado: Vivo</p>
+        </div>
+    </div>
+</body>
+</html>
