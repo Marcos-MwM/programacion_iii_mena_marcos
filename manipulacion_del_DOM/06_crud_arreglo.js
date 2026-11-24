@@ -135,3 +135,13 @@ cancelar.addEventListener("click", function(){
     cancelar.hidden = true;
     formulario.reset();
 });
+
+function limpiarFormulario() {
+    idEditando = null;
+    guardar.textContent = "Agregar";
+    formulario.requestFullscreen();
+    cancelar.hidden = true;
+    formulario.reset();
+}
+
+cancelar.addEventListener("click", limpiarFormulario);
