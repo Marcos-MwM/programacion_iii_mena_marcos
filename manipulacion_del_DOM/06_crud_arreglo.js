@@ -48,6 +48,11 @@ function eliminarPersonaje(id) {
         return personaje.id !== id;
     });
 
+    const confirmar = confirm("¿Estás seguro de que deseas eliminar este personaje?");
+    if (!confirmar) {
+        return;
+    }
+
     if (idEditando === id) {
         idEditando = null;
         guardar.textContent = "Agregar";
