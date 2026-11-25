@@ -29,7 +29,7 @@ const cancelar = document.getElementById("cancelar");
 const cantidad = document.getElementById("cantidad");
 const contenedor = document.getElementById("contenedor");
 let idEditando = null;
-
+let siguientesId = 4;
 function editarPersonaje(id) {
     const personaje = personajes.find(function(personajeActual) {
         return personajeActual.id === id;
@@ -98,7 +98,7 @@ function mostrarPersonajes() {
 
 mostrarPersonajes();
 
-let siguientesId = 4;
+
 formulario.addEventListener("submit", function(event){
     event.preventDefault();
     const nombrePersonaje = nombre.value.trim();

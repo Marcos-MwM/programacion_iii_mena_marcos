@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="06_CRUD_mp_mena_marcos.js" defer></script>
+</head>
+<body>
+    <h1>Taller Mecanico</h1>
+    <form id="formulario">
+        <input type="text" id="placa" placeholder="Placa">
+        <input type="text" id="cliente" placeholder="Cliente">
+        <select id="estado">
+            <option value="recibido">Recibido</option>
+            <option value="en_reparacion">en_reparacion</option>
+            <option value="listo">Listo</option>
+        </select>
+        <button id="guardar" type="submit">Agregar</button>
+        <button id="cancelar" type="button">Cancelar</button>
+    </form>
+    <h2>Vehiculos del taller: <span id="cantidad">0</span></body> </h2>
+    <div id="contenedor">
+    </div>
+    </body>
+</html>
